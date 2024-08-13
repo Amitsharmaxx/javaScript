@@ -44,27 +44,37 @@
 
 
 
-const obj1 = {
-    1:"a",
-    2:"b"
+// const obj1 = {
+//     1:"a",
+//     2:"b"
+// }
+
+// const obj2 = {
+//     3:"c",
+//     4:"d"
+// }
+
+// const obj3 = {
+//     5:"e",
+//     6:"f"
+// }
+// //to merge 3 objects
+// const ans = Object.assign(obj1 ,obj2 ,obj3)
+
+
+// //or we can use spread to merge objects
+
+// const add = {...obj1, ...obj2, ...obj3}
+// console.log("using object.assign : ",ans)
+// console.log("using spread :",ans)
+
+const course = {
+    courseName:"js ",
+    price :1000,
+    Teacher:"Amit",
 }
 
-const obj2 = {
-    3:"c",
-    4:"d"
-}
+const{courseName}=course
+console.log(courseName)
 
-const obj3 = {
-    5:"e",
-    6:"f"
-}
-//to merge 3 objects
-const ans = Object.assign(obj1 ,obj2 ,obj3)
-
-
-//or we can use spread to merge objects
-
-const add = {...obj1, ...obj2, ...obj3}
-console.log("using object.assign : ",ans)
-console.log("using spread :",ans)
 
