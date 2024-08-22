@@ -81,3 +81,5 @@ const goods = [
 
 const cart = goods.reduce((acc, item)=> acc + item.price,0)
 console.log(`Amout to Pay : ${cart} Only`);
+
+
